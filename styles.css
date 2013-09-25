@@ -20,7 +20,7 @@ body {
 	border-radius: 6px;
 	background-color: white;
 	float: left;
-	width: 302px;
+	width: 270px;
 }
 
 .profile-summary, .tweet-content {
@@ -65,7 +65,7 @@ textarea.tweet-compose {
 	margin-bottom: 1em;
 }
 
-.tweet-compose-expand {
+textarea.tweet-compose-expand {
 	width: 100%;
 	height: 60px;
 	font-size: 13px;
@@ -178,6 +178,7 @@ p.tweet-text {
 
 .tweet-actions {
 	text-align: right;
+	/*display: none;*/
 }
 .tweet-actions ul {
 	list-style-type: none;
